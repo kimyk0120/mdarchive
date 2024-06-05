@@ -6,6 +6,20 @@
 - 도커 파일 -> 도커 컴포즈 순서로 실행하면서 만들면 좋을듯 
 - 도커 그룹 투가 
   - usermod -aG docker {username}
+- aws cli 
+  -  억세스 키 필요 
+  - output format : json
+- 도커 build . <- 파일 위치 
+- ecr 생성 (도커 이미지 저장소)
+- ecr tag 명으로 변경
+- image ecr push
+- ecs cluster - fargate 
+- choose vpc made before
+- check cloudformation
+- ecs task definition
+- ecs service
+- AWS Fargate
+  - serverless container
+  - no need to manage server
+- ALB 로드 밸런서 생성시 VPC 매핑은 퍼플릭으로 매핑해야 Fargate 외부에서 접속 가능
 - 
-
-

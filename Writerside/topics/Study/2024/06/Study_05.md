@@ -23,4 +23,5 @@
   - no need to manage server
 - ALB 로드 밸런서 생성시 VPC 매핑은 퍼플릭으로 매핑해야 Fargate 외부에서 접속 가능
 - Pro Git, 알잘딱깔센GibHub 책
+- cat ~/.gitconfig 에 user 정보 저장됨 
 - 

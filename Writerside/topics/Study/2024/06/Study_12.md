@@ -28,5 +28,48 @@ S3
   - 파일을 저장할 수 있는 서비스
   - REST API를 사용하여 객체를 저장하고 검색
 
+Route 53
+  - DNS 서비스
+
+RDS
+  - 관계형 데이터베이스 서비스
+  - MySQL, PostgreSQL, Oracle, SQL Server 등을 지원
+  - 데이터베이스를 생성, 관리, 백업, 복원, 확장할 수 있음
+  
+DynamoDB
+  - NoSQL 데이터베이스 서비스
+  - SSD 기반 무제한 스토리지
+  - 자동 이중화 백업(3개 지역 분산)
+
+ElastiCache
+  - 인메모리 데이터 스토어 서비스
+  - Redis, Memcached를 지원
+  - 데이터베이스 쿼리를 빠르게 처리
+
+WAF
+  - 관리형 웹 방화벽 서비스
+  - CloudFront, API Gateway, ALB 기본적으로 사용하도록 구성됨 
+
+Shield
+  - DDoS 공격 방어 서비스
+  - Standard, Advanced 두 가지 버전이 있음
+  - Standard는 무료, Advanced는 유료
+
+KMS
+  - 키 관리 서비스
+  - 리스소 데이터 암호화/복호화 
+
+CloudWatch
+  - 모니터링 서비스
+  - 관리형 aws 리소스 사용량, 성능, 로그, 알람 등을 모니터링
+  - amazone sns 서비스를 통한 알람 가능
+
+Amazone SNS (Simple Notification Service)
+  - 관리현 메시지 서비스 
+
+Cloudtrail
+  - 관리현 이벤트 추적/감사 도구 
+  - AWS 계정에 대한 이벤트 추적/감사
+
 
 

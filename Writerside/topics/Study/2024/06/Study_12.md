@@ -71,5 +71,12 @@ Cloudtrail
   - 관리현 이벤트 추적/감사 도구 
   - AWS 계정에 대한 이벤트 추적/감사
 
+공동 책임모델 & 규정준수 프로그램
+  - ISMS (Information Security Management System)
+    - 정보보호 관리 체계
+  - PCI DSS (Payment Card Industry Data Security Standard)
+    - 카드 데이터 보호 표준
+  - HIPAA (Health Insurance Portability and Accountability Act)
+    - 건강보험 이동성 및 책임법
 
 

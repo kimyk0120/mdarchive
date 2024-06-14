@@ -15,7 +15,17 @@ AWS 리소스 프로비저닝
   - 자동화 구축을 위해 CLI 스크립트, SDK, AWS CloudFormation 등 관리 도구를 사용할 수 있음
   - AWS CloudFormation을 사용하여 인프라를 코드로 취급할 수 있습니다
 
+AWS VPC (Virtual private cloud)
+  - 사용자가 정의한 가상 네트워크에서 AWS 리소스를 시작할 수 있도록 지원
+  - 서브넷
+    - VPC의 IP 주소 범위
+    - 공개/미공개 
+  - IGW (Internet Gateway)
+    - VPC와 인터넷 간의 통신을 지원
 
+AWS Direct Connect
+  - AWS 클라우드와 사용자의 데이터 센터 또는 사무실을 연결하는 서비스
+  - 네트워크와 AWS 리소스 간의 전용 연결을 설정
 
 
 

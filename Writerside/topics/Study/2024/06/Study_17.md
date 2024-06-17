@@ -52,7 +52,23 @@ EFS (Elastic File System)
 
 RDS (Relational Database Service)
   - 관리형 관계형 데이터베이스 서비스
-  - MySQL, PostgreSQL, MariaDB, Oracle, SQL Server 등 다양한 데이터베이스 엔진 지원
+  - Amazon Aurora
+    PostgreSQL
+    MySQL
+    MariaDB
+    Oracle Database
+    Microsoft SQL Server
+
+Aurora
+  - MySQL, PostgreSQL과 호환되는 관리형 관계형 데이터베이스
+  - 6개의 데이터 복사본을 3개의 가용 영역에 복제하고 지속적으로 Amazon S3에 데이터를 백업
+  - 표준 MySQL 데이터베이스보다 최대 5배 빠르며 표준 PostgreSQL 데이터베이스보다 최대 3배
+
+AWS RDS와 AWS Aurora의 차이점
+  - RDS MySQL 과 AWS Auroral MySQL의 가장 큰 차이점은 Storage 및 관리 주체, Read Replica의 구성 방식 세가지
+  - Storage : RDS MySQL은 자체 EBS로 운영하지만, Aurora MySQL은 Shared Storage를 사용한다.
+    관리 주체 : RDS MySQL은 관리자가 RDS MySQL의 버전을 관리하지만, Aurora MySQL은 AWS가 개발해서 버전 업그레이드를 주기적으로 하기 떄문에 optional 또는 mandatory가 AWS에 의해 정해질 수 있다.
+    Read Replica 구성 : RDS MySQL은 standby와 read replica를 만들 때 binlog를 사용하지만, Aurora의 경우 내부 storage 및 redo log 전송을 통해 빠른 통기화가 가능하며 bandwidth를 줄일 수 있다.
 
 
 

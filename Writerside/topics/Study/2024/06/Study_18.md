@@ -19,7 +19,8 @@ Database Migration Service (DMS)
   - 여러 데이터베이스를 단일 데이터베이스로 통합
   - 일회성 마이그레이션을 수행하는 것이 아니라 데이터의 진행 중 복제본을 다른 대상 원본으로 전송
 
-
+- Amazon DocumentDB는 MongoDB 워크로드를 지원하는 문서 데이터베이스 서비스
+- Amazon ElastiCache는 자주 사용되는 요청의 읽기 시간을 향상시키기 위해 데이터베이스 위에 캐싱 계층을 추가하는 서비스
 
 
 

@@ -22,7 +22,7 @@ DDOS 분산 서비스 거부 공격
   - 애플리케이션 용량 과도화를 이용하여 서비스 거부 공격을 수행하는 것
 
 AWS Shield
-  - DDoS 공격으로부터 애플리케이션을 보호하는 서비스
+  - DDoS 공격으로부터 네트워크 트레틱에 대해 애플리케이션을 보호하는 서비스
   - AWS Shield Standard는 다양한 분석 기법을 사용하여 실시간으로 악성 트래픽을 탐지하고 자동으로 완화
   - AWS Shield Advanced는 상세한 공격 진단 및 정교한 DDoS 공격을 탐지하고 완화할 수 있는 기능을 제공하는 유료 서비스
 
@@ -41,3 +41,8 @@ AWS GuardDuty
 AWS WAF
   - 웹 애플리케이션으로 들어오는 네트워크 요청을 모니터링할 수 있는 웹 애플리케이션 방화벽
   - AWS WAF는 Amazon CloudFront 및 Application Load Balancer와 함께 작동
+
+IAM 정책
+  - IAM 사용자, 그룹 또는 역할에 대한 권한을 정의하는 문서
+  - IAM 정책은 JSON 문서로 작성되며, AWS에서 제공하는 정책을 사용하거나 사용자 정의 정책을 작성할 수 있습니다.
+
